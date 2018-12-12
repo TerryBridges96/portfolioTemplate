@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>My Landing Page</title>
+</head>
+<body>
+    <nav class="navbar"> 
+        <div class="brand">Terry<span>Bridges</span></div>
+        <ul class="topnav" id="navbarToggle">
+            <li><a class="navLink" href="#">Home</a></li>
+            <li><a class="navLink" href="#">Products</a></li>
+            <li><a class="navLink" href="#">About Us</a></li>
+            <li><a class="navLink" href="#">Contact</a></li>
+            <li class="dropdownLink"><a onclick="toggleDropdown()" href="">&#9776;</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <div class="headerShotWrapper">
+            <img class="headshot" src="assets/47317033_1947393891977026_6838298249808314368_n.jpg" alt="Terry">
+            <h1>Terry Bridges</h1>
+        </div>
+    </header>
+    
+    <section class="services">
+        <div class="container">
+            <div class="mediaObject">
+                <div class="iconLeft">
+                    <img class="icon" src="assets/graph_lines.svg" alt="graph chart">
+                </div>
+                <div class="blurbWrapperRight">
+                    <h3 class="blurbHeader">Scalable Code</h3>
+                    <div class="blurbInfo">
+                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+            </div>
+            <div class="mediaObject">
+                <div class="iconRight">
+                    <img class="icon" src="assets/assistant_icon.svg" alt="graph chart">
+                </div>
+                <div class="blurbWrapperLeft">
+                    <h3 class="blurbHeader">Other Cool Attribute</h3>
+                    <div class="blurbInfo">
+                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+            </div>
+            <div class="mediaObject">
+                <div class="iconLeft">
+                    <img class="icon" src="assets/pie_chart.svg" alt="graph chart">
+                </div>
+                <div class="blurbWrapperRight">
+                    <h3 class="blurbHeader">6 Months of Support</h3>
+                    <div class="blurbInfo">
+                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+            </div>
+            <div class="quoteBtnWrapper">
+                <button class="quoteBtn">Get a quote</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="portfolio">
+        <div class="container">
+            <div class="sectionHeader">
+                <h1>Previous Works</h1>
+            </div>
+            <div class="portfolioWrapper">
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+                <div class="portfolioObjects">
+                    <div class="portfolioBox"></div>
+                    <h4>Project</h4>
+                    <div class="portfolioText">
+                      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contactContainer">
+        <div class="container">
+            <div class="sectionHeader">
+                <h1>Drop me a line</h1>
+            </div>
+            <form>
+                <label for="email">Email*</label>
+                <div class="formGroup">
+                    <input  class="formControl" type="email" id="email">
+                </div>
+                <label for="name">Name*</label>
+                <div class="formGroup">
+                    <input class="formControl" type="text" id="name">
+                </div>
+                <label for="message">Message*</label>
+                <div class="formGroup">
+                   <textarea class="formControl" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submitBtn">
+                    <button class="quoteBtn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
